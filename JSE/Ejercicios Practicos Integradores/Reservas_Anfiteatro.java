@@ -111,17 +111,16 @@ public class Reservas_Anfiteatro {
                 
               for ( nFilaM = cnPfm, nFila = cnPfd ; nFilaM < cnUfd ; nFilaM++, nFila++ )
               {
-                System.out.print( "   " + nFila  ) ;
+                System.out.format( "   %2d", nFila  ) ;
               
                 for ( nAsientoM = cnPam ; nAsientoM < cnUad ; nAsientoM++ )
         
-                  System.out.print( " " + acAsientos[ nFilaM ][ nAsientoM ] ) ;
+                  System.out.print( "  " + acAsientos[ nFilaM ][ nAsientoM ] ) ;
                 
                 System.out.println( "" ) ;
                 
               }
               
-                
               System.out.println( "" ) ;
               System.out.println( "" ) ;
               
